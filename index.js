@@ -5,4 +5,4 @@ const batteryTotaller = (total, batteryBatch) => total + batteryBatch
 //let total = 0
 //totalBatteries = batteryBatches.reduce(batteryBatch => total + batteryBatch, 0)
 //let totalBatteries = [1, 2, 3].reduce(function(total, element){ return element * 2 + total}, 0)
-let totalBatteries = batteryBatches.reduce(batteryTotaller)
+let totalBatteries = batteryBatches.reduce(batteryTotaller, 0)
